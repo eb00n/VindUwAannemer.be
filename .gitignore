@@ -166,7 +166,7 @@ dmypy.json
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
-.idea/*.iml
+# .idea/*.iml
 # .idea/modules
 # *.iml
 # *.ipr
@@ -210,3 +210,11 @@ fabric.properties
 .idea/**/*.xml
 .idea/**/.gitignore
 .dropbox.device
+
+# keep project configuration files:
+#profiles_setting.xml
+#.gitignore
+#misc.xml
+#modules.xml
+#vcs.xml
+#*.iml
