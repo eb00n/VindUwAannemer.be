@@ -3,7 +3,10 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-DEBUG = True
+from threading import Thread
+
+MAX_THREADS = 20
+DEBUG = False
 
 
 class Category:
@@ -118,8 +121,6 @@ def get_contact_urls(driver, act_url, cat):
     return contact_list
 
 
-
-
 def add_cat_contacts(contacts, catcont, cat, cont_list):
     """
     Add sub-list of contacts into contacts, making sure they are unique. And add the many-to-many
@@ -150,9 +151,8 @@ def get_all_cont_urls(driver, base_url, cat_list):
     :param cat_list:
     :return: a list of unique contacts and a list of category-contacts relations
     """
-    if DEBUG:
-        i = 0
 
+    c = 0
     contacts = []
     catcont = []
     # loop trough all categories and get all contacts per category
@@ -164,13 +164,12 @@ def get_all_cont_urls(driver, base_url, cat_list):
         # Merge contacts and add category-contact relations
         add_cat_contacts(contacts, catcont, cat, cont_list)
 
-        print(f"#contacts: {len(contacts)}, #catcont: {len(catcont)}, #cont_list: {len(cont_list)}")
+        print(f"cat [{c}/{len(cat_list)}], #contacts: {len(contacts)}, #catcont: {len(catcont)}, #cont_list: {len(cont_list)}")
 
         # When under development do only the first few to speed up things.
-        if DEBUG:
-            i += 1
-            if i == 4:
-                break
+        c += 1
+        if DEBUG and c == 4:
+            break
 
     return contacts, catcont
 
@@ -183,35 +182,57 @@ def find_contact_details_in_soup(soup, class_string):
     return detail
 
 
+def thread_get_contact_info(contacts, i):
+    """
+    Collect the detail info for a contact. Function is started as a thread
+    :param contacts:
+    :param i:
+    :return: mutations are done in contacts[i]
+    """
+    response = requests.get(contacts[i].url)
+    if not response.ok:
+        print(f"Code: {response.status_code}, url: {contacts[i].url}")
+        return contacts[i], False
+    soup = BeautifulSoup(response.text, 'html.parser')
+    if soup is None:
+        print(f'Empty soup: {contacts[i]}')
+        return contacts[i]
+
+    # Find the name of the Contact
+    try:
+        contacts[i].naam = soup.find('div', id='ficheWrap').find('h1').text
+    except:
+        print(f'Contact has no Name: {contacts[i]}')
+        contacts[i].naam = ''
+
+    contacts[i].adres = find_contact_details_in_soup(soup, 'fas fa-map-marker-alt fa-fw')
+    contacts[i].mob = find_contact_details_in_soup(soup, 'fas fa-mobile-alt fa-fw')
+    contacts[i].tel = find_contact_details_in_soup(soup, 'fas fa-phone fa-fw')
+    contacts[i].email = find_contact_details_in_soup(soup, 'fas fa-envelope fa-fw')
+    contacts[i].btw = find_contact_details_in_soup(soup, 'fas fa-file-invoice-dollar fa-fw')
+    contacts[i].www = find_contact_details_in_soup(soup, 'fas fa-globe-americas fa-fw')
+    return
+
+
 def get_all_contact_info(contacts):
-    counter, total_count = 0, len(contacts)
-    for contact in contacts:
-        if counter % 10 == 0:
-            print(f"Retrieving contact details: {counter}/{total_count}...")
+    """
+    Starts
+    :param contacts:
+    """
+    tot_count = len(contacts)
+    max_threads = MAX_THREADS
 
-        response = requests.get(contact.url)
-        if not response.ok:
-            print(f"Code: {response.status_code}, url: {contact.url}")
-            return contacts, False
-        soup = BeautifulSoup(response.text, 'html.parser')
-        if soup == None:
-            print(f'Empty soup: {contact}')
-            continue
+    for n in range(0, tot_count, max_threads):
+        curr_threads = max_threads if n + max_threads <= tot_count else tot_count - n
+        threads = []
+        print(f"Retrieving contact details: {n}/{tot_count}...")
+        for c_index in range(curr_threads):
+            t = Thread(target=thread_get_contact_info, args=(contacts, n + c_index,))
+            t.start()
+            threads.append(t)
 
-        # Find the name of the Contact
-        try:
-            contact.naam = soup.find('div', id='ficheWrap').find('h1').text
-        except:
-            print(f'Contact has no Name: {contact}')
-            contact.naam = ''
-        contact.adres = find_contact_details_in_soup(soup, 'fas fa-map-marker-alt fa-fw')
-        contact.mob = find_contact_details_in_soup(soup, 'fas fa-mobile-alt fa-fw')
-        contact.tel = find_contact_details_in_soup(soup, 'fas fa-phone fa-fw')
-        contact.email = find_contact_details_in_soup(soup, 'fas fa-envelope fa-fw')
-        contact.btw = find_contact_details_in_soup(soup, 'fas fa-file-invoice-dollar fa-fw')
-        contact.www = find_contact_details_in_soup(soup, 'fas fa-globe-americas fa-fw')
-        counter += 1
-    return contacts, True
+        for t in threads:
+            t.join()
 
 
 def write_contacts(file_name, catcont):
@@ -242,7 +263,7 @@ def main():
     driver = webdriver.Firefox()    # geckodriver.exe is in same map as this python script
     contacts, catcont = get_all_cont_urls(driver, base_url, cat_list)
 
-    contacts, status = get_all_contact_info(contacts)
+    get_all_contact_info(contacts)
     print(len(contacts))
 
     write_contacts(file_name, catcont)
