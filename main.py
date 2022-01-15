@@ -3,7 +3,7 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-DEBUG = False
+DEBUG = True
 
 
 class Category:
@@ -183,7 +183,7 @@ def find_contact_details_in_soup(soup, class_string):
     return detail
 
 
-def get_all_contact_info(contacts, base_url):
+def get_all_contact_info(contacts):
     counter, total_count = 0, len(contacts)
     for contact in contacts:
         if counter % 10 == 0:
@@ -242,7 +242,7 @@ def main():
     driver = webdriver.Firefox()    # geckodriver.exe is in same map as this python script
     contacts, catcont = get_all_cont_urls(driver, base_url, cat_list)
 
-    contacts, status = get_all_contact_info(contacts, base_url)
+    contacts, status = get_all_contact_info(contacts)
     print(len(contacts))
 
     write_contacts(file_name, catcont)
