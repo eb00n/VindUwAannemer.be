@@ -1,29 +1,23 @@
 from bs4 import BeautifulSoup
 import requests
-import urllib.request
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import time
 DEBUG = False
 
 
 class Category:
-    def __init__(self, name, url, cont_list=[]):
-        self.name = name
+    def __init__(self, url, naam):
         self.url = url
-        self.cont_list = cont_list
+        self.naam = naam
 
     def __str__(self):
-        return f"{self.name} - {self.url} - {len(self.cont_list)}"
+        return f"{self.naam}"
 
 
 class Contact:
-    def __init__(self, url, cat=None, naam=None, adres=None,
-                 tel=None, mob=None, email=None, btw=None, www=None):
+    def __init__(self, url, naam=None, adres=None, tel=None, mob=None, email=None, btw=None, www=None):
         self.url = url
-        self.cat = cat
         self.naam = naam
         self.adres = adres
         self.tel = tel
@@ -33,24 +27,46 @@ class Contact:
         self.www = www
         return
 
+    # To enable using .index() on the list of contacts
+    def __eq__(self, cont):
+        if not isinstance(cont.url, str):
+            raise TypeError("Contact URL can be compared only with str")
+        if self.url == cont.url:
+            return True
+        return False
+
     def __str__(self):
-        return f"{self.cat}\t{self.naam}\t{self.adres}\t{self.tel}\t{self.mob}\t{self.email}\t{self.btw}\t{self.www}"
+        return f"{self.naam}\t{self.adres}\t{self.tel}\t{self.mob}\t{self.email}\t{self.btw}\t{self.www}"
+
+
+# Many-to-many class
+class CatCont:
+    def __init__(self, cat, cont):
+        self.cat = cat
+        self.cont = cont
+
+    def __str__(self):
+        return f"{self.cat}\t{self.cont}"
 
 
 def get_all_category_urls(base_url):
+    """
+    Collect all sub categories: the name and the url pointing to the sub category page with the contacts
+    :param base_url:
+    :return: a list of Category objects
+    """
     # Find and loop through sub-categories (acts)
     cat_list = []
     response = requests.get(base_url)
     if not response.ok:
         print(f"Code: {response.status_code}, url: {base_url}")
-        return
+        return cat_list
     soup = BeautifulSoup(response.text, 'html.parser')
     results = soup.find_all('p', class_='acts')
     for cat in results:
         acts = cat.find_all('a')
         for act in acts:
-            c = Category(act.get_text(strip=True), act.get('href'))
-            # print(c)
+            c = Category(url=act.get('href'), naam=act.get_text(strip=True))
             cat_list.append(c)
 
     return cat_list
@@ -91,41 +107,72 @@ def get_contact_urls(driver, act_url, cat):
 
         # Get all a-tag elements within h2 tags
         items = driver.find_elements(By.CSS_SELECTOR, "h2 a")
-        contact_list = [Contact(url=item.get_attribute('href'), cat=cat.name) for item in items]
+        contact_list = [Contact(url=item.get_attribute('href')) for item in items]
     else:
         # When only 1 contact the contact page itself is presented instead of a list of contacts
         if total_items == 1:
-            contact_list = [Contact(url=driver.current_url, cat=cat.name)]
+            contact_list = [Contact(url=driver.current_url)]
         else:
-            pass        # no contacts in this category
+            contact_list = []        # no contacts in this category
 
     return contact_list
 
 
+
+
+def add_cat_contacts(contacts, catcont, cat, cont_list):
+    """
+    Add sub-list of contacts into contacts, making sure they are unique. And add the many-to-many
+    relations for the current category and the contacts in the sub-list.
+    :param contacts: list of Contact objects
+    :param catcont: list of CatCont objects
+    :param cat: current category for which the contacts are added to the cat-contact relation
+    :param cont_list: sub-list of contacts to be merged into contacts
+    """
+    for cont in cont_list:
+        # Add cont to contacts if not exists and return index
+        try:
+            i = contacts.index(cont)
+        except ValueError:
+            contacts.append(cont)
+            i = len(contacts) - 1
+
+        catcont.append(CatCont(cat, contacts[i]))
+
+
 def get_all_cont_urls(driver, base_url, cat_list):
+    """
+    Collect the urls to the contact details. Per category the contact urls are collected.
+    A list of unique contacts is build tohether with the many-to-many list that records
+    the category - contact relation.
+    :param driver:
+    :param base_url:
+    :param cat_list:
+    :return: a list of unique contacts and a list of category-contacts relations
+    """
     if DEBUG:
         i = 0
 
     contacts = []
+    catcont = []
     # loop trough all categories and get all contacts per category
     for cat in cat_list:
         print(cat)
         # collect contact urls for the current category
         cont_list = get_contact_urls(driver, base_url + cat.url, cat)
 
-        # Store category name together with list of contact_urls
-        contacts.extend(cont_list)  # add contacts to the main contacts list
-        # cat.cont_list = cont_list      # add contact list to the category
-        print(len(contacts))
+        # Merge contacts and add category-contact relations
+        add_cat_contacts(contacts, catcont, cat, cont_list)
+
+        print(f"#contacts: {len(contacts)}, #catcont: {len(catcont)}, #cont_list: {len(cont_list)}")
 
         # When under development do only the first few to speed up things.
         if DEBUG:
             i += 1
             if i == 4:
                 break
-    print(len(contacts), len(set(contacts)))
 
-    return contacts
+    return contacts, catcont
 
 
 def find_contact_details_in_soup(soup, class_string):
@@ -137,8 +184,11 @@ def find_contact_details_in_soup(soup, class_string):
 
 
 def get_all_contact_info(contacts, base_url):
-
+    counter, total_count = 0, len(contacts)
     for contact in contacts:
+        if counter % 10 == 0:
+            print(f"Retrieving contact details: {counter}/{total_count}...")
+
         response = requests.get(contact.url)
         if not response.ok:
             print(f"Code: {response.status_code}, url: {contact.url}")
@@ -152,50 +202,55 @@ def get_all_contact_info(contacts, base_url):
         try:
             contact.naam = soup.find('div', id='ficheWrap').find('h1').text
         except:
-            print(f'Contact has no adres: {contact}')
-            contact.adres = ''
+            print(f'Contact has no Name: {contact}')
+            contact.naam = ''
         contact.adres = find_contact_details_in_soup(soup, 'fas fa-map-marker-alt fa-fw')
         contact.mob = find_contact_details_in_soup(soup, 'fas fa-mobile-alt fa-fw')
-        contact.tel = find_contact_details_in_soup(soup, 'fas fas fa-phone fa-fw fa-fw')
+        contact.tel = find_contact_details_in_soup(soup, 'fas fa-phone fa-fw')
         contact.email = find_contact_details_in_soup(soup, 'fas fa-envelope fa-fw')
         contact.btw = find_contact_details_in_soup(soup, 'fas fa-file-invoice-dollar fa-fw')
         contact.www = find_contact_details_in_soup(soup, 'fas fa-globe-americas fa-fw')
-
+        counter += 1
     return contacts, True
 
 
-def write_contacts(file_name, contacts):
+def write_contacts(file_name, catcont):
+    """
+    Write detailed many-to-many relations to Tab seperated file
+    :param file_name: Output file
+    :param catcont: many-to-many list
+    :return: output file
+    """
+    print(f"Writing file: {file_name}")
     with open(file_name, 'w') as f:
-        for contact in contacts:
-            f.write(str(contact))
+        for cc in catcont:
+            f.write(f"{cc.cat.naam}\t{str(cc.cont)}")
             f.write('\n')
     return
 
 
 def main():
+    """"
+    Collect all subcategories and the contractors within from vinduwaannemer.be
+    """
     base_url = 'https://www.vinduwaannemer.be/'
     file_name = 'vinduwaannemer.be.tsv'
 
     cat_list = get_all_category_urls(base_url)
 
-    # Because of content filled by JavaScript we continue using Selenium
+    # Because of content filled by JavaScript Selenium is used
     driver = webdriver.Firefox()    # geckodriver.exe is in same map as this python script
+    contacts, catcont = get_all_cont_urls(driver, base_url, cat_list)
 
-    contacts = get_all_cont_urls(driver, base_url, cat_list)
-
-    #### Make a list of unique contacts and fetch the detail info per contact
-    ####
     contacts, status = get_all_contact_info(contacts, base_url)
     print(len(contacts))
 
-    write_contacts(file_name, contacts)
+    write_contacts(file_name, catcont)
 
     driver.quit()
 
 
 
-""""
-Collect all subcategories and the contractors within from vinduwaannemer.be
-"""
+
 if __name__ == '__main__':
     main()
