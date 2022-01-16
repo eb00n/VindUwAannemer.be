@@ -241,10 +241,9 @@ def get_all_contact_info(contacts):
     :param contacts:
     """
     tot_count = len(contacts)
-    max_threads = MAX_THREADS
 
-    for n in range(0, tot_count, max_threads):
-        curr_threads = max_threads if n + max_threads <= tot_count else tot_count - n
+    for n in range(0, tot_count, MAX_THREADS):
+        curr_threads = MAX_THREADS if n + MAX_THREADS <= tot_count else tot_count - n
         threads = []
         print(f"Retrieving contact details: {n}/{tot_count}...")
         for c_index in range(curr_threads):
