@@ -244,6 +244,7 @@ def write_contacts(file_name, catcont):
     """
     print(f"Writing file: {file_name}")
     with open(file_name, 'w') as f:
+        f.write(f"Naam\tAdres\tTelefoon\tMobiel\tE-mail\tBTW nummer\tWebsite")
         for cc in catcont:
             f.write(f"{cc.cat.naam}\t{str(cc.cont)}")
             f.write('\n')
@@ -264,7 +265,7 @@ def main():
     contacts, catcont = get_all_cont_urls(driver, base_url, cat_list)
 
     get_all_contact_info(contacts)
-    print(len(contacts))
+    print(f"Number of contacts: {len(contacts)}")
 
     write_contacts(file_name, catcont)
 
