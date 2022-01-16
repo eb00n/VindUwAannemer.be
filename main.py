@@ -6,6 +6,8 @@ import time
 from threading import Thread
 
 MAX_THREADS = 20
+DELAY_LOAD_PAGE = 0.1
+DELAY_SCROLL_LOAD = 0.6
 DEBUG = False
 
 
@@ -61,6 +63,7 @@ def get_all_category_urls(base_url):
     # Find and loop through sub-categories (acts)
     cat_list = []
     response = requests.get(base_url)
+    print("Loading all categories...")
     if not response.ok:
         print(f"Code: {response.status_code}, url: {base_url}")
         return cat_list
@@ -71,12 +74,16 @@ def get_all_category_urls(base_url):
         for act in acts:
             c = Category(url=act.get('href'), naam=act.get_text(strip=True))
             cat_list.append(c)
-
+    print(f"Categories loaded: {len(cat_list)}")
     return cat_list
 
 
 cookies_accepted = False
 def accept_cookies(driver):
+    """
+    Deselect the social and statistics check boxes and click on "Voorkeuren opslaan"
+    :param driver:
+    """
     global cookies_accepted
 
     # Accept the cookie dialogue automatically (only once needed)
@@ -88,25 +95,36 @@ def accept_cookies(driver):
 
 
 def get_contact_urls(driver, act_url, cat):
+    """
+    Collect all URL's for the contact detail pages
+    :param driver:
+    :param act_url:
+    :param cat:
+    :return: contacts_list: a llist of Contact objects with only the URL attribute filled
+    """
     # get web page
     driver.get(act_url)
-    time.sleep(0.1)         # give it some time to load, otherwise there is nothing to find
+    time.sleep(DELAY_LOAD_PAGE)         # give it some time to load, otherwise there is nothing to find
 
     accept_cookies(driver)
 
     total_items = (driver.find_element(By.CSS_SELECTOR, "div h1").text.split(' ')[0])
     total_items = int(total_items) if total_items.isnumeric() else 0
 
-    # execute script to scroll down the page until all items are loaded
-    items_on_first_page = 0
-    while items_on_first_page == 0 and total_items > 0:
+    # Determine number pages to scroll to load all data
+    while True:
         items_on_first_page = len(driver.find_elements(By.CSS_SELECTOR, "h2 a"))
-        time.sleep(0.1)     # wait a bit longer to let the page render.
+        if items_on_first_page == 0 and total_items > 0:
+            # print("Warning: DELAY_LOAD_PAGE is too small; page needs more time to load...")
+            time.sleep(0.1)     # wait a bit longer to let the page render.
+        else:
+            break
 
+    # execute script to scroll down the page until all items are loaded
     if total_items > 1:
         for i in range(total_items//items_on_first_page):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(0.1)     # wait till page has loaded the extra items
+            time.sleep(DELAY_SCROLL_LOAD)     # wait till page has loaded the extra items
 
         # Get all a-tag elements within h2 tags
         items = driver.find_elements(By.CSS_SELECTOR, "h2 a")
@@ -117,7 +135,9 @@ def get_contact_urls(driver, act_url, cat):
             contact_list = [Contact(url=driver.current_url)]
         else:
             contact_list = []        # no contacts in this category
-
+    if total_items != len(contact_list):
+        print(f"Error: {len(contact_list)} are loaded but should be {total_items}. "
+              f"Please increase DELAY_SCROLL_LOAD...")
     return contact_list
 
 
@@ -155,16 +175,17 @@ def get_all_cont_urls(driver, base_url, cat_list):
     c = 0
     contacts = []
     catcont = []
+    print("Loading URL's to Contact details (per category)")
     # loop trough all categories and get all contacts per category
     for cat in cat_list:
-        print(cat)
+        # print(cat)
         # collect contact urls for the current category
         cont_list = get_contact_urls(driver, base_url + cat.url, cat)
 
         # Merge contacts and add category-contact relations
         add_cat_contacts(contacts, catcont, cat, cont_list)
 
-        print(f"cat [{c}/{len(cat_list)}], #contacts: {len(contacts)}, #catcont: {len(catcont)}, #cont_list: {len(cont_list)}")
+        print(f"{cat.naam[:30].ljust(30)}:  cat [{c}/{len(cat_list)}], #contacts: {len(contacts)}, #catcont: {len(catcont)}, #cont_list: {len(cont_list)}")
 
         # When under development do only the first few to speed up things.
         c += 1
@@ -244,7 +265,7 @@ def write_contacts(file_name, catcont):
     """
     print(f"Writing file: {file_name}")
     with open(file_name, 'w') as f:
-        f.write(f"Naam\tAdres\tTelefoon\tMobiel\tE-mail\tBTW nummer\tWebsite")
+        f.write(f"Categorie\tNaam\tAdres\tTelefoon\tMobiel\tE-mail\tBTW nummer\tWebsite\n")
         for cc in catcont:
             f.write(f"{cc.cat.naam}\t{str(cc.cont)}")
             f.write('\n')

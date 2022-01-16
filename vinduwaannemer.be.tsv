@@ -1,3 +1,4 @@
+Categorie	Naam	Adres	Telefoon	Mobiel	E-mail	BTW nummer	Website
 Appartementsbouw	Bouwwerken De Kimpe	't Jongestraat, 11/B 11 B9080 ZAFFELARE		0499 27 71 40	info@bouwwerkendekimpe.be	BTW BE 0887.315.022	www.bouwwerkendekimpe.be
 Appartementsbouw	Den Blauwen Xavier	Poekestraat 24 9880 AALTER	0478 27 78 43	0476 50 49 77	info@denblauwenxavierbvba.be	BTW BE 0807.291.507	www.denblauwenxavierbvba.be
 Appartementsbouw	Hadibouw	Lierseweg 325 2200 HERENTALS	014 23 11 71		info@hadibouw.be	BTW BE 0442.712.750	www.hadibouw.be
@@ -28,6 +29,10 @@ Appartementsbouw	Rutsaert bv	Steenstraat 100 9340 LEDE	053 77 70 31		info@rutsae
 Appartementsbouw	SB-Woningbouw	Bedrijfsweg 1 3960 BREE		0497 44 91 80		BTW BE 0864.680.665	www.sb-woningbouw.be
 Appartementsbouw	Schilderwerken Vansteelandt	Zevekotestraat 87 B8470 Gistel		0476 34 47 50	info@schilderwerkenvansteelandt.be	BTW BE 0508.968.403	www.schilderwerkenvansteelandt.be
 Appartementsbouw	Stielmannen	Smallandlaan 1 2660 Hoboken		0486 48 49 59	stielmannen@gmail.com	BTW BE 0538.819.558	www.stielmannen.com
+Appartementsbouw	Van Nieuwenhove Algemene Bouwonderneming bv	Snoeckstraat 30 9120 MELSELE			info@van-nieuwenhove.be	BTW BE 0685.512.757	www.van-nieuwenhove.be
+Appartementsbouw	Vandevyvere Norbert	Professor Dewulfstraat 116 8970 POPERINGE	0474 42 04 04	0474 24 69 47	info@soliseal.be	BTW BE 0446.244.639	www.soliseal.be
+Appartementsbouw	Wesley Maegh	Pastoorsvijverweg 3 2310 RIJKEVORSEL		0479 58 32 61	info@wesleymaegh.be	BTW BE 0677.594.884	www.wesleymaegh.be
+Appartementsbouw	ZeroHuis (Ultra-Bouw BV)	Geelseweg 79 2250 Olen	014 72 41 63		info@zerohuis.be	BTW BE 0475.707.497	www.zerohuis.be
 Betonbouw	Den Blauwen Xavier	Poekestraat 24 9880 AALTER	0478 27 78 43	0476 50 49 77	info@denblauwenxavierbvba.be	BTW BE 0807.291.507	www.denblauwenxavierbvba.be
 Betonbouw	Mylle Patrick	'S Gravendriesschelaan 20 8480 EERNEGEM		0477 66 99 37	info@myllep.be	BTW BE 0682.268.702	www.myllep.be
 Betonbouw	Van Damme Algemene Bouwwerken	LEDERGEMSTRAAT, 30 30 9041 GENT (OOSTAKKER)	09 251 14 88	0473 24 95 44	info@vandammebouw.be	BTW BE 0441.635.060	www.vandammebouw.be
@@ -199,6 +204,27 @@ Nieuwbouw	Naessens Tony	Pastoor Verrieststraat 83 8570 INGOOIGEM	056 77 56 64	04
 Nieuwbouw	Neyens Geert	Zuidstraat 249 8480 ICHTEGEM	050 24 00 59	0476 41 06 27	info@geertneyens.be	BTW BE 0469.570.268	
 Nieuwbouw	NOBE BV	Burgemeester de cocklaan 10 19320 EREMBODEGEM	053 89 35 95		info@nb-projects.be	BTW BE 0728.938.964	www.nb-projects.be
 Nieuwbouw	Norbert Van De Walle	Provinciebaan 331 9620 VELZEKE-RUDDERSHOVE	09 360 22 67		info@afwerkingsbedrijf.be	BTW BE 0443.511.417	www.afwerkingsbedrijf.be
+Nieuwbouw	Omni-bouw	Dorpsplein 23 3470 KORTENAKEN	0471 18 92 79	0471 18 92 79	info@omni-bouw.be	BTW BE 0745.403.131	
+Nieuwbouw	Peter Bondue	'S Graventafelstraat 7 8980 PASSENDALE	051 77 17 94	0476 20 69 38	peterbondue@skynet.be	BTW BE 0819.377.311	www.peterbondue.be
+Nieuwbouw	PICO INTERIEUR	Liebiglaan 96 2900 SCHOTEN			info@pico-interieur.be	BTW BE 0697.850.761	www.pico-interieur.be
+Nieuwbouw	Pitt-Solutions	Bellestraat 88 A1790 AFFLIGEM		0476 28 95 20	info@pitt-solutions.be	BTW BE 0723.939.506	www.pitt-solutions.be
+Nieuwbouw	PORTIER BV	Kruishillestraat 14 8210 ZEDELGEM		0475 59 06 74	hans@bvbaportier.be	BTW BE 0434.585.536	www.bvbaportier.be
+Nieuwbouw	Residentie Vastgoed	Marktstraat 20 18460 OUDENBURG	059 25 05 90		info@residentievastgoed.be	BTW BE 0515.983.877	www.residentievastgoed.be
+Nieuwbouw	Retroconstruct	Herlegemstraat 5 9771 KRUISEM		0477 40 55 38	delodder.rik@telenet.be	BTW BE 0893.518.567	www.retroconstruct.be
+Nieuwbouw	Rutsaert bv	Steenstraat 100 9340 LEDE	053 77 70 31		info@rutsaertbvba.be	BTW BE 0453.968.710	rutsaertbvba.be
+Nieuwbouw	rw-creations	Pastoor Celensstraat 10 2920 KALMTHOUT	0472 17 69 13	0472 17 69 13	rudiger@rw-creations.be	BTW BE 0662.387.264	www.rw-creations.be
+Nieuwbouw	SB-Woningbouw	Bedrijfsweg 1 3960 BREE		0497 44 91 80		BTW BE 0864.680.665	www.sb-woningbouw.be
+Nieuwbouw	Schilderwerken Vansteelandt	Zevekotestraat 87 B8470 Gistel		0476 34 47 50	info@schilderwerkenvansteelandt.be	BTW BE 0508.968.403	www.schilderwerkenvansteelandt.be
+Nieuwbouw	Stielmannen	Smallandlaan 1 2660 Hoboken		0486 48 49 59	stielmannen@gmail.com	BTW BE 0538.819.558	www.stielmannen.com
+Nieuwbouw	Van Bruwaene Kris BV	Ruiseledesteenweg 155 8750 WINGENE	0477 96 10 36	0478 40 59 16	kris.van.bruwaene@telenet.be	BTW BE 0832.003.345	
+Nieuwbouw	Van de brul bvba	Schommen 2 2820 BONHEIDEN	015 51 45 57		info@vandebrul.be	BTW BE 0475.038.989	www.vandebrul.be
+Nieuwbouw	Van Nieuwenhove Algemene Bouwonderneming bv	Snoeckstraat 30 9120 MELSELE			info@van-nieuwenhove.be	BTW BE 0685.512.757	www.van-nieuwenhove.be
+Nieuwbouw	Vandevyvere Norbert	Professor Dewulfstraat 116 8970 POPERINGE	0474 42 04 04	0474 24 69 47	info@soliseal.be	BTW BE 0446.244.639	www.soliseal.be
+Nieuwbouw	Verbeke Michel En Zoon	Lotegatstraat 10a 8980 ZONNEBEKE	057 46 91 17	0475 78 26 93	verbeke.marnick@busmail.net	BTW BE 0456.977.391	verbekemichelenzoon.be
+Nieuwbouw	Vermeiren Karel	Withof 8 2320 HOOGSTRATEN	03 314 85 93	0473 96 13 76	Karel.vermeiren3@telenet.be	BTW BE 0767.226.844	
+Nieuwbouw	Waelkens Nv	Leon Bekaertstraat 3 8770 INGELMUNSTER	051 48 92 76		delphine@waelkensnv.be	BTW BE 0443.789.648	www.waelkensnv.be
+Nieuwbouw	Wesley Maegh	Pastoorsvijverweg 3 2310 RIJKEVORSEL		0479 58 32 61	info@wesleymaegh.be	BTW BE 0677.594.884	www.wesleymaegh.be
+Nieuwbouw	ZeroHuis (Ultra-Bouw BV)	Geelseweg 79 2250 Olen	014 72 41 63		info@zerohuis.be	BTW BE 0475.707.497	www.zerohuis.be
 Sleutel-op-de-deur	Den Blauwen Xavier	Poekestraat 24 9880 AALTER	0478 27 78 43	0476 50 49 77	info@denblauwenxavierbvba.be	BTW BE 0807.291.507	www.denblauwenxavierbvba.be
 Sleutel-op-de-deur	Hadibouw	Lierseweg 325 2200 HERENTALS	014 23 11 71		info@hadibouw.be	BTW BE 0442.712.750	www.hadibouw.be
 Sleutel-op-de-deur	IQ-Bouw	Kleinveld 6 3746 HOELBEEK	089 21 50 80		info@iq-bouw.be	BTW BE 0830.292.977	www.iq-bouw.be
@@ -304,6 +330,17 @@ Totaalrenovatie	rw-creations	Pastoor Celensstraat 10 2920 KALMTHOUT	0472 17 69 1
 Totaalrenovatie	Sanagro	Evenbroekveld 30B 9420 ERPE		0495 20 81 82	info@sanagro.be	BTW BE 0834.514.358	www.sanagro.be
 Totaalrenovatie	Schilderwerken Vansteelandt	Zevekotestraat 87 B8470 Gistel		0476 34 47 50	info@schilderwerkenvansteelandt.be	BTW BE 0508.968.403	www.schilderwerkenvansteelandt.be
 Totaalrenovatie	SERVICELoodgieter	Lodewijk Dosfelstraat 9 9160 LOKEREN	0495 56 37 78	0495 56 37 78	info@serviceloodgieter.be	BTW BE 0556.870.664	www.serviceloodgieter.be
+Totaalrenovatie	Sillae Renovations	Hendrik Placestraat 2 1702 GROOT-BIJGAARDEN				BTW BE 0827.626.962	www.sillae-renovations.com
+Totaalrenovatie	Stielmannen	Smallandlaan 1 2660 Hoboken		0486 48 49 59	stielmannen@gmail.com	BTW BE 0538.819.558	www.stielmannen.com
+Totaalrenovatie	TPL Dakwerken	Jozef Voldersstraat 23 3970 LEOPOLDSBURG		0484 14 25 62	info@tpldakwerken.be	BTW BE 0681.598.214	www.tpldakwerken.be
+Totaalrenovatie	Valbusko	Terlicht 25 9451 KERKSKEN	053 83 00 34		info@valbusko.be	BTW BE 0431.272.490	www.valbusko.be
+Totaalrenovatie	Van Nieuwenhove Algemene Bouwonderneming bv	Snoeckstraat 30 9120 MELSELE			info@van-nieuwenhove.be	BTW BE 0685.512.757	www.van-nieuwenhove.be
+Totaalrenovatie	Vandevyvere Norbert	Professor Dewulfstraat 116 8970 POPERINGE	0474 42 04 04	0474 24 69 47	info@soliseal.be	BTW BE 0446.244.639	www.soliseal.be
+Totaalrenovatie	VDW VLOEREN	Lenteakkerstraat 54 8770 INGELMUNSTER		0494 59 92 23	info@vdwvloeren.be	BTW BE 0864.202.001	www.vdw-vloeren.be
+Totaalrenovatie	Verbeke Michel En Zoon	Lotegatstraat 10a 8980 ZONNEBEKE	057 46 91 17	0475 78 26 93	verbeke.marnick@busmail.net	BTW BE 0456.977.391	verbekemichelenzoon.be
+Totaalrenovatie	Vermeiren Karel	Withof 8 2320 HOOGSTRATEN	03 314 85 93	0473 96 13 76	Karel.vermeiren3@telenet.be	BTW BE 0767.226.844	
+Totaalrenovatie	Waelkens Nv	Leon Bekaertstraat 3 8770 INGELMUNSTER	051 48 92 76		delphine@waelkensnv.be	BTW BE 0443.789.648	www.waelkensnv.be
+Totaalrenovatie	Wesley Maegh	Pastoorsvijverweg 3 2310 RIJKEVORSEL		0479 58 32 61	info@wesleymaegh.be	BTW BE 0677.594.884	www.wesleymaegh.be
 Vochtbestrijding	Bouwwerken Fr. Laenens B.V.	Kleine Klepperstraat 2 1861 WOLVERTEM	02 270 13 82		l.laenens@skynet.be	BTW BE 0421.332.069	www.bouwwerkenlaenens.be
 Vochtbestrijding	New Decor	Katspoelstraat 1 3360 BIERBEEK		0475 46 24 64	info@newdecor.be	BTW BE 0639.383.121	www.newdecor.be
 Daktimmerwerk	A R S - YADEBO	Mendonkdorp 94 9042 MENDONK	09 273 65 97		info@ars-yadebo.be	BTW BE 0633.503.733	www.ars-yadebo.be
@@ -336,6 +373,22 @@ Daktimmerwerk	Homelior	Gildenstraat 56 1840 LONDERZEEL		0498 50 91 06	info@homel
 Daktimmerwerk	INGELS	Callamerenstraat 85 9120 BEVEREN (KALLO)		0478 58 42 97	info@ingels.co	BTW BE 0687.588.755	www.ingels.co
 Daktimmerwerk	J.Van de Kerckhove	Peraltastraat 15 8000 BRUGGE		0474 96 06 90	kurt@vdkschrijnwerken.be	BTW BE 0432.070.365	www.vdkschrijnwerken.be
 Daktimmerwerk	Kristof Vaernewyck - Bouw- en renovatiewerken	Dokter Adriaensstraat 5 8210 ZEDELGEM		0486 88 73 72	reno.kristof@telenet.be	BTW BE 0682.348.676	
+Daktimmerwerk	Lauryssen John bvba	Groot Veerle 21 A2960 SINT-LENAARTS	03 313 57 77		info@jlauryssen.be	BTW BE 0441.745.621	www.jlauryssen.be
+Daktimmerwerk	Lefebvre Mathieu BV	Oudenaardebaan 91 9690 KLUISBERGEN		0485 62 82 98	Lefebvre-mathieu@hotmail.com	BTW BE 0740.568.571	
+Daktimmerwerk	Neyens Geert	Zuidstraat 249 8480 ICHTEGEM	050 24 00 59	0476 41 06 27	info@geertneyens.be	BTW BE 0469.570.268	
+Daktimmerwerk	Nuyens Chris	Strijpenplein 9 9620 Zottegem (Strijpen)	0495 67 96 15	0495 67 96 15	info@nuyenshoutcreaties.be	BTW BE 0871.675.850	www.nuyenshoutcreaties.be/
+Daktimmerwerk	PICO INTERIEUR	Liebiglaan 96 2900 SCHOTEN			info@pico-interieur.be	BTW BE 0697.850.761	www.pico-interieur.be
+Daktimmerwerk	Schrijnwerkerij De Witte	Stationstraat 33 9170 SINT-GILLIS-WAAS			schrijnwerkerijdewitte@skynet.be	BTW BE 0788.083.824	
+Daktimmerwerk	SERVICELoodgieter	Lodewijk Dosfelstraat 9 9160 LOKEREN	0495 56 37 78	0495 56 37 78	info@serviceloodgieter.be	BTW BE 0556.870.664	www.serviceloodgieter.be
+Daktimmerwerk	Solide & WaterpROOF bv	Turnhoutsebaan 554 2970 SCHILDE		0477 98 18 04	info@solide-waterproof.be	BTW BE 0887.923.251	www.solide-waterproof.be
+Daktimmerwerk	STADAK	Kiewitstraat 186 3500 HASSELT	011 24 30 14		stadak@stadak.be	BTW BE 0434.934.835	
+Daktimmerwerk	Stielmannen	Smallandlaan 1 2660 Hoboken		0486 48 49 59	stielmannen@gmail.com	BTW BE 0538.819.558	www.stielmannen.com
+Daktimmerwerk	Superdak & Co	De Weven 1 3583 PAAL	011 42 00 88		info@superdak.be	BTW BE 0829.920.518	www.superdak.be
+Daktimmerwerk	Timmerwerken Brosens BV	Strijbeekseweg 13 2328 MEERLE		0476 57 51 99	brosensbart@live.be	BTW BE 0733.884.578	www.timmerwerkenbrosens.be
+Daktimmerwerk	TPL Dakwerken	Jozef Voldersstraat 23 3970 LEOPOLDSBURG		0484 14 25 62	info@tpldakwerken.be	BTW BE 0681.598.214	www.tpldakwerken.be
+Daktimmerwerk	Van De Velde Johan	Zuidlaan 99 9630 MUNKZWALM		0496 28 03 92	johan.vdv@yucom.be	BTW BE 0592.912.104	
+Daktimmerwerk	Van Hecke Geert	Langendam 25 9940 SLEIDINGE	09 357 55 53		schrijnwerkerijvanheckegeert@telenet.be	BTW BE 0742.209.950	
+Daktimmerwerk	VCB Dakwerken	Titerveldweg 2 3454 RUMMEN		0478 61 29 33	info@vcb-dakwerken.be	BTW BE 0825.924.712	www.vcb-dakwerken.be
 Gevelbekleding	AD-Bouwteam	Bommelstraat, 23 23 9840 DE PINTE		0497 64 00 76	ad-bouwteam@telenet.be	BTW BE 0808.927.738	ad-bouwteam.wixsite.com/mijnsite
 Gevelbekleding	Algemene Bouwwerken Hoste	Leon Bekaertlaan, 16 16 9880 AALTER	09 374 69 22	0495 25 41 41	luc@timmerman-hoste.be	BTW BE 0438.393.181	www.timmerman-hoste.be
 Gevelbekleding	De Both	Sluis 40 A9290 BERLARE		0475 71 89 93	Info@deboth.be	BTW BE 0455.290.878	Www.deboth.be
@@ -587,6 +640,25 @@ Dakisolatie	Interieurbouw Bauwens Dieter	Kromstraat 9 9667 SINT-MARIA-HOREBEKE		
 Dakisolatie	Isolatie & Renovatie Verhoeven	Leuvensesteenweg 51 11910 KAMPENHOUT	016 65 05 05		info@isolatieverhoeven.be	BTW BE 0422.791.623	www.isolatieverhoeven.be
 Dakisolatie	Isolteam	Makeveldstraat 5 B8610 KORTEMARK	051 79 79 00		info@isolteam.be	BTW BE 0840.835.293	www.isolteam.be
 Dakisolatie	Kristof Vaernewyck - Bouw- en renovatiewerken	Dokter Adriaensstraat 5 8210 ZEDELGEM		0486 88 73 72	reno.kristof@telenet.be	BTW BE 0682.348.676	
+Dakisolatie	KVDV	Hundelgemsesteenweg 1049 9820 MERELBEKE		0473 63 30 22	kris.van.de.velde@telenet.be	BTW BE 0844.439.735	
+Dakisolatie	Lauryssen John bvba	Groot Veerle 21 A2960 SINT-LENAARTS	03 313 57 77		info@jlauryssen.be	BTW BE 0441.745.621	www.jlauryssen.be
+Dakisolatie	Lefebvre Mathieu BV	Oudenaardebaan 91 9690 KLUISBERGEN		0485 62 82 98	Lefebvre-mathieu@hotmail.com	BTW BE 0740.568.571	
+Dakisolatie	Liparos BV	Meileveld 39 9620 STRIJPEN	09 360 12 54		info@liparos.be	BTW BE 0825.151.581	www.liparos.be
+Dakisolatie	Maerten Dimitri	Kaaskerkestraat 10 8600 DIKSMUIDE		0495 46 70 83	dimitri.maerten@outlook.com	BTW BE 0644.583.212	www.dakwerkendiksmuide.be
+Dakisolatie	Notredame Interieur	Brokkelingstraat 1 D8750 ZWEVEZELE		0473 43 30 15	eric.notredame@telenet.be	BTW BE 0873.055.230	
+Dakisolatie	PORTIER BV	Kruishillestraat 14 8210 ZEDELGEM		0475 59 06 74	hans@bvbaportier.be	BTW BE 0434.585.536	www.bvbaportier.be
+Dakisolatie	Proleco	D'Helst 13 9280 LEBBEKE	052 40 99 10	0475 48 65 81	proleco@proleco.be	BTW BE 0441.234.489	www.proleco.be
+Dakisolatie	Sanagro	Evenbroekveld 30B 9420 ERPE		0495 20 81 82	info@sanagro.be	BTW BE 0834.514.358	www.sanagro.be
+Dakisolatie	Sanitair en Dakwerken De Witte Dirk	Oude Bruglaan 140 0019160 LOKEREN	09 356 84 89	0498 81 97 71	info@dewittedirk.be	BTW BE 0478.369.653	www.dewittedirk.be
+Dakisolatie	Schrijnwerkerij De Witte	Stationstraat 33 9170 SINT-GILLIS-WAAS			schrijnwerkerijdewitte@skynet.be	BTW BE 0788.083.824	
+Dakisolatie	Sillae Renovations	Hendrik Placestraat 2 1702 GROOT-BIJGAARDEN				BTW BE 0827.626.962	www.sillae-renovations.com
+Dakisolatie	Solide & WaterpROOF bv	Turnhoutsebaan 554 2970 SCHILDE		0477 98 18 04	info@solide-waterproof.be	BTW BE 0887.923.251	www.solide-waterproof.be
+Dakisolatie	STADAK	Kiewitstraat 186 3500 HASSELT	011 24 30 14		stadak@stadak.be	BTW BE 0434.934.835	
+Dakisolatie	Superdak & Co	De Weven 1 3583 PAAL	011 42 00 88		info@superdak.be	BTW BE 0829.920.518	www.superdak.be
+Dakisolatie	Timmerwerken Brosens BV	Strijbeekseweg 13 2328 MEERLE		0476 57 51 99	brosensbart@live.be	BTW BE 0733.884.578	www.timmerwerkenbrosens.be
+Dakisolatie	TPL Dakwerken	Jozef Voldersstraat 23 3970 LEOPOLDSBURG		0484 14 25 62	info@tpldakwerken.be	BTW BE 0681.598.214	www.tpldakwerken.be
+Dakisolatie	Van de Walle Sig	Eikelstraat 40 9900 EEKLO		0498 10 64 72	info@sigvandewalle.be	BTW BE 0541.578.318	www.sigvandewalle.be
+Dakisolatie	Van Hecke Geert	Langendam 25 9940 SLEIDINGE	09 357 55 53		schrijnwerkerijvanheckegeert@telenet.be	BTW BE 0742.209.950	
 Luchtdichtheidswerkzaamheden	Kristof Sucaet NP	Ommegangstraat 6 6 8755 RUISELEDE		0470 44 22 19	info@geluidsisolatiedokter.be	BTW BE 0692.802.011	www.geluidsisolatiedokter.be/
 Luchtdichtheidswerkzaamheden	Mylle Patrick	'S Gravendriesschelaan 20 8480 EERNEGEM		0477 66 99 37	info@myllep.be	BTW BE 0682.268.702	www.myllep.be
 Luchtdichtheidswerkzaamheden	Patrick Van Bogaert bv	Pareinpark, 25 25 9120 BEVEREN	03 755 05 55		patrick@patrickvanbogaert.be	BTW BE 0475.200.426	www.patrickvanbogaert.be
@@ -731,6 +803,10 @@ Grondwerken	THOLEN GROND- EN AFBRAAKWERKEN	Watermolenweg 4 3950 BOCHOLT	089 46 4
 Grondwerken	Tuinprojecten Rinus van der Vaart	Hannekestraat, 24 24 2480 DESSEL		0471 26 65 26	rinusvdv@algemenetuinaanleg.be	BTW BE 0777.998.594	www.algemenetuinaanleg.be
 Grondwerken	Van Bruwaene Kris BV	Ruiseledesteenweg 155 8750 WINGENE	0477 96 10 36	0478 40 59 16	kris.van.bruwaene@telenet.be	BTW BE 0832.003.345	
 Grondwerken	Van de brul bvba	Schommen 2 2820 BONHEIDEN	015 51 45 57		info@vandebrul.be	BTW BE 0475.038.989	www.vandebrul.be
+Grondwerken	Veramme BV	Toevluchtweg 8 8620 NIEUWPOORT		0479 58 43 64	info@veramme.com	BTW BE 0893.984.365	www.veramme.com
+Grondwerken	Verbeke Michel En Zoon	Lotegatstraat 10a 8980 ZONNEBEKE	057 46 91 17	0475 78 26 93	verbeke.marnick@busmail.net	BTW BE 0456.977.391	verbekemichelenzoon.be
+Grondwerken	Verhellen Dries	De Spijker 1 9681 NUKERKE	0472 56 89 48		verhellen.dries@gmail.com	BTW BE 0838.045.752	
+Grondwerken	Wegenbouw.Be	Wielewaallaan 19 2950 KAPELLEN	03 289 61 78		info@wegenbouw.be	BTW BE 0824.141.593	www.wegenbouw.be/
 Kelder	Mylle Patrick	'S Gravendriesschelaan 20 8480 EERNEGEM		0477 66 99 37	info@myllep.be	BTW BE 0682.268.702	www.myllep.be
 Kelder	Van Damme Algemene Bouwwerken	LEDERGEMSTRAAT, 30 30 9041 GENT (OOSTAKKER)	09 251 14 88	0473 24 95 44	info@vandammebouw.be	BTW BE 0441.635.060	www.vandammebouw.be
 Kelder	Diro-Bouw	Berlingmolenstraat 61 8850 ARDOOIE		0475 28 49 28	info@dirobouw.be	BTW BE 0461.916.572	www.dirobouw.be
@@ -1038,6 +1114,10 @@ Keukens	Van Kwikenborne	Diepestraat 2 8720 WAKKEN	056 61 02 03	0475 66 30 04	inf
 Keukens	Vanenco	Breendonkstraat 22 B2830 WILLEBROEK	03 886 74 78		info@vanenco.be	BTW BE 0452.284.472	www.vanenco.be
 Keukens	Vanheukelom BV	Genebroekstraat 111 3581 BEVERLO		0475 82 74 81	a.vanheukelom@telenet.be	BTW BE 0439.682.192	www.iso-vanheukelom.be
 Keukens	VDN-Technics	Brakelsesteenweg 580 9400 NINOVE		0476 31 20 21	VDN-Technics@hotmail.com	BTW BE 0725.624.633	
+Keukens	Verfaillie Totaalinrichting Bv	Kortrijksestraat 298 8501 HEULE		0478 42 02 38	info@verfaillie-totaalinrichting.be	BTW BE 0478.963.135	www.verfaillie-totaalinrichting.be
+Keukens	Verginst Interieurafwerking	Eindertstraat 2a A/33581 BEVERLO	011 18 51 49	0468 00 85 56	info@verginst.be	BTW BE 0716.732.901	Www.verginst.be
+Keukens	VG-Design	Roeselarestraat 31 8880 ROLLEGEM-KAPELLE		0493 04 32 73	info@vg-design.be	BTW BE 0746.769.445	www.vg-design.be
+Keukens	Woodaccents - Jannis Van Echelpoel	Fortveldstraat 80 2110 WIJNEGEM		0476 46 13 94	van.echelpoel.jannis@gmail.com	BTW BE 0689.853.409	
 Maatkasten en -meubilair	A R S - YADEBO	Mendonkdorp 94 9042 MENDONK	09 273 65 97		info@ars-yadebo.be	BTW BE 0633.503.733	www.ars-yadebo.be
 Maatkasten en -meubilair	AD-Bouwteam	Bommelstraat, 23 23 9840 DE PINTE		0497 64 00 76	ad-bouwteam@telenet.be	BTW BE 0808.927.738	ad-bouwteam.wixsite.com/mijnsite
 Maatkasten en -meubilair	Molyvco   MC- Interieur	Nijverheidsstraat 39 2570 DUFFEL	03 491 07 60		info@mollekens-celis.be	BTW BE 0426.761.297	www.mollekens-celis.be
@@ -1271,6 +1351,29 @@ Ramen en deuren	Inghelbrecht Construct	Verhelststraat 2 8460 OUDENBURG				BTW BE
 Ramen en deuren	Inpro	Jagersdreef 1a 2900 Schoten	03 337 78 20	0496 51 07 39	info@inpro.be	BTW BE 0894.132.340	www.inpro.be
 Ramen en deuren	JB	Lepelstraat 7 3540 DONK		0479 34 16 12	info@schrijnwerkerij-beckers.be	BTW BE 0818.460.264	
 Ramen en deuren	Jova Construct	Vliegpleinweg 38 3520 ZONHOVEN	0479 02 00 08		info@jovaconstruct.be	BTW BE 0749.450.803	www.jovaconstruct.be
+Ramen en deuren	Karel Maes	Bruul 64A 2440 GEEL	014 58 66 92		info@karelmaes.be	BTW BE 0471.643.395	www.karelmaes.be
+Ramen en deuren	Kitvoegwerken Johny Daens bv	Ambachtstraat 58 3530 Helchteren	0495 25 41 55		info@kitvoegwerkendaens.be	BTW BE 0544.635.402	www.kitvoegwerkendaens.be
+Ramen en deuren	Kunststofwerken ERBA bv	Heist-Goorstraat 30 2220 HEIST-OP-DEN-BERG	015 25 01 04		info@erba.be	BTW BE 0451.961.602	www.erba.be
+Ramen en deuren	Lauryssen John bvba	Groot Veerle 21 A2960 SINT-LENAARTS	03 313 57 77		info@jlauryssen.be	BTW BE 0441.745.621	www.jlauryssen.be
+Ramen en deuren	Marconsult - Renovatiecoach	Nonnenstraat 23 2300 TURNHOUT		0496 07 71 02	info@renovatiecoach.be	BTW BE 0840.367.517	www.renovatiecoach.be
+Ramen en deuren	Mergan	Broekstraat 97 1745 OPWIJK	052 35 60 90		bvba.mergan@busmail.net	BTW BE 0400.740.058	www.mergan.be
+Ramen en deuren	Meubel en Schrijnwerken Vander Veken	Frans Messingstraat 39 2100 DEURNE (ANTWERPEN)	03 326 31 21	0473 80 46 63	pol.vdv@skynet.be	BTW BE 0507.444.117	
+Ramen en deuren	Moons Stefan	Sint-Leonardusstraat 18 3530 HOUTHALEN	011 52 31 48	0497 77 96 17	moons.ramen@skynet.be	BTW BE 0773.117.417	
+Ramen en deuren	Neyens Geert	Zuidstraat 249 8480 ICHTEGEM	050 24 00 59	0476 41 06 27	info@geertneyens.be	BTW BE 0469.570.268	
+Ramen en deuren	Note Jan	Dreefvelden 56 2860 SINT-KATEL.WAVER	015 42 14 11		info@notejan.be	BTW BE 0655.707.330	www.notejan.be
+Ramen en deuren	Nuyens Chris	Strijpenplein 9 9620 Zottegem (Strijpen)	0495 67 96 15	0495 67 96 15	info@nuyenshoutcreaties.be	BTW BE 0871.675.850	www.nuyenshoutcreaties.be/
+Ramen en deuren	Orzechowski Krzysztof	Moerstraat 79 9230 WETTEREN			krzysztoforzechowski@hotmail.com	BTW BE 0644.592.714	
+Ramen en deuren	PLAN D'ARTAGNAN	Abdijstraat 5 a8792 DESSELGEM	0468 45 99 61		info@plandartagnan.be	BTW BE 0716.720.924	www.plandartagnan.be
+Ramen en deuren	Roelant Paul	Guldenstraat 3 1770 LIEDEKERKE	053 66 86 28		paulroelant@skynet.be	BTW BE 0749.312.924	
+Ramen en deuren	Schrijnwerkerij De Witte	Stationstraat 33 9170 SINT-GILLIS-WAAS			schrijnwerkerijdewitte@skynet.be	BTW BE 0788.083.824	
+Ramen en deuren	SCHRIJNWERKERIJ HERMAN LEMMENS BVBA	Mechelbaan 94 2861 OLV Waver	015 76 16 35	0474 49 45 95	info@hermanlemmens.be	BTW BE 0452.236.170	www.hermanlemmens.be
+Ramen en deuren	Staal Met Stijl	Burgtraat 78 B0059070 DESTELBERGEN	09 328 80 95		offerte@staalmetstijl.be	BTW BE 0480.038.548	www.staalmetstijl.be
+Ramen en deuren	Van De Velde Johan	Zuidlaan 99 9630 MUNKZWALM		0496 28 03 92	johan.vdv@yucom.be	BTW BE 0592.912.104	
+Ramen en deuren	Van Hirtum Geudens	Broechemsesteenweg 281 2560 NIJLEN	03 410 12 20	0497 50 12 20	info@vanhirtum.be	BTW BE 0404.059.438	www.vanhirtum.be
+Ramen en deuren	Van Kwikenborne	Diepestraat 2 8720 WAKKEN	056 61 02 03	0475 66 30 04	info@bvbavankwikenborne.be	BTW BE 0474.017.026	
+Ramen en deuren	Vanenco	Breendonkstraat 22 B2830 WILLEBROEK	03 886 74 78		info@vanenco.be	BTW BE 0452.284.472	www.vanenco.be
+Ramen en deuren	VITRA-METAL/VITRALUX NV	Pontstraat 2 9770 KRUISEM	09 383 69 69		vitralux@vitralux.be	BTW BE 0815.849.677	www.vitralux.be
+Ramen en deuren	Winfera Tongeren - Ralem	Sint-Truidersteenweg 201 3700 TONGEREN	012 26 32 62		info@winfera.be	BTW BE 0471.545.605	www.winfera.be
 Rolluiken	Aannemersbedrijf Samyn & Zoon	Schrevelstraat 1 8650 Houthulst		0477 67 35 19	Samynenzoon1@gmail.com	BTW BE 0429.657.144	
 Rolluiken	Alratec	Koning Albertstraat 2 1760 ROOSDAAL	054 32 37 10		info@alratec.be	BTW BE 0415.501.676	www.alratec.be
 Rolluiken	Bart Vandemaele	Sint-Amandstraat 13 8760 MEULEBEKE		0474 96 91 04	bartvandemaele@telenet.be	BTW BE 0847.050.223	
@@ -1458,6 +1561,7 @@ Valse wanden en plafonds in gipskarton	SCHRIJNWERKERIJ HERMAN LEMMENS BVBA	Meche
 Valse wanden en plafonds in gipskarton	Sillae Renovations	Hendrik Placestraat 2 1702 GROOT-BIJGAARDEN				BTW BE 0827.626.962	www.sillae-renovations.com
 Valse wanden en plafonds in gipskarton	Solid Group - De Geveldokter	Riemstraat 38 2970 SCHILDE	03 296 60 23		info@geveldokter.be	BTW BE 0641.629.363	www.geveldokter.be
 Valse wanden en plafonds in gipskarton	Tintelijn	Adolf Baeyensstraat 216 9040 SINT-AMANDSBERG	09 219 09 60		info@tintelijn.be	BTW BE 0437.341.128	www.tintelijn.be
+Valse wanden en plafonds in gipskarton	TJ-Technics bv	Europastraat 19 2850 BOOM		0478 58 64 61	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
 Valse wanden en plafonds in gipskarton	Van de Walle Sig	Eikelstraat 40 9900 EEKLO		0498 10 64 72	info@sigvandewalle.be	BTW BE 0541.578.318	www.sigvandewalle.be
 Valse wanden en plafonds in gipskarton	Van Hecke Geert	Langendam 25 9940 SLEIDINGE	09 357 55 53		schrijnwerkerijvanheckegeert@telenet.be	BTW BE 0742.209.950	
 Valse wanden en plafonds in gipskarton	Van Kwikenborne	Diepestraat 2 8720 WAKKEN	056 61 02 03	0475 66 30 04	info@bvbavankwikenborne.be	BTW BE 0474.017.026	
@@ -1906,6 +2010,23 @@ Badkamer en toilet	Stroobants Verwarming bvba	Delinstraat 47 2060 ANTWERPEN 6	03
 Badkamer en toilet	TEMPO BV	Oude Veldstraat 145 9080 LOCHRISTI	09 356 87 87		tempo@telenet.be	BTW BE 0456.241.478	www.tempo-bvba.be
 Badkamer en toilet	Tom Van den Boer	Leemskuilenstraat 5 3950 BOCHOLT		0470 50 19 71	tomvandenboerbv@gmail.com	BTW BE 0751.967.358	
 Badkamer en toilet	Torfs Luc	Terloonststraat 5 1910 KAMPENHOUT	016 65 78 22		info@luctorfs.be	BTW BE 0732.376.328	
+Badkamer en toilet	Van Den Brande-Boulpaep	Okaaistraat 38 A1790 TERALFENE	053 68 23 17	0476 35 20 07	eddy.vandenbrande63@gmail.com	BTW BE 0476.981.167	
+Badkamer en toilet	Van Der Casseyen Christophe	Ottergemstraat 89 A9570 DEFTINGE	054 41 29 42		info@vandercasseyen.be	BTW BE 0712.414.520	www.vandercasseyen.be
+Badkamer en toilet	Van Dooren Sonny	Kabricht 11 3770 VLIJTINGEN	0479 52 87 14	0479 52 87 14	sonnyvandooren@hotmail.com	BTW BE 0555.969.653	www.sonnyvandooren.be
+Badkamer en toilet	Van Eeckhout Danny bv	Boomsesteenweg 12 72630 AARTSELAAR	03 844 41 82	0475 32 78 08	info@vedbvba.be	BTW BE 0473.249.637	www.vedbvba.be
+Badkamer en toilet	Van Hemelen Guido	Plaats 10A 10 A2460 LICHTAART	014 55 55 08		info@vanhemeleng.be	BTW BE 0420.008.614	www.vanhemeleng.be/
+Badkamer en toilet	Van Loock Luc bvba	Streepstraat 4 2222 WIEKEVORST		0495 86 68 21	vanloockluc@telenet.be	BTW BE 0843.752.619	
+Badkamer en toilet	Van Overmeeren BV	Zulzekestraat 44 C9690 ZULZEKE	0032476434775		van.overmeeren@telenet.be	BTW BE 0870.898.761	
+Badkamer en toilet	Vandenbulcke bvba	Stationsstraat, 120 120 8540 DEERLIJK	056 70 34 50		info@vandenbulckebvba.be	BTW BE 0437.283.126	vandenbulckebvba.zuinigerverwarmen.be
+Badkamer en toilet	Vandijck	Industrieweg 18 3990 PEER	011 61 11 16		info@vandijck.nu	BTW BE 0435.448.539	www.vandijck.nu
+Badkamer en toilet	Vanheukelom BV	Genebroekstraat 111 3581 BEVERLO		0475 82 74 81	a.vanheukelom@telenet.be	BTW BE 0439.682.192	www.iso-vanheukelom.be
+Badkamer en toilet	VDN-Technics	Brakelsesteenweg 580 9400 NINOVE		0476 31 20 21	VDN-Technics@hotmail.com	BTW BE 0725.624.633	
+Badkamer en toilet	Vedisan	Liersesteenweg 113 2520 EMBLEM	03 294 41 25	0479 35 84 74	info@vedisan.be	BTW BE 0537.837.185	www.vedisan.be
+Badkamer en toilet	Verlinde R&J	Canadezenstraat 42 8380 LISSEWEGE	0494 85 07 90		jens.verlinde@telenet.be	BTW BE 0888.388.356	www.verlinde-rj.be
+Badkamer en toilet	Vervloessem Wim	Veldstraat 46 E3130 BEGIJNENDIJK	0494 71 20 45		wim.vervloessem@telenet.be	BTW BE 0809.976.427	www.vervloessemwim.com
+Badkamer en toilet	Weymans Kristof	Limmersweg 34 1840 MALDEREN		0476 40 65 48		BTW BE 0645.603.096	www.weymanskristof.be
+Badkamer en toilet	Willems Karel	Industrieweg 51 3980 TESSENDERLO	013 66 20 04		info@willems-karel.be	BTW BE 0461.134.634	www.willems-karel.be
+Badkamer en toilet	WOONHABITAT	Meersstraat 45 D9190 STEKENE	0470 95 84 79		info@woonhabitat.com	BTW BE 0869.994.780	WWW.WOONHABITAT.COM
 Elektrische, accumulatie- en infraroodverwarming	ALL-FA bvba	Kerkhove 3 1547 Bever-Bievene	054 58 61 29		allfa.bvba@gmail.com	BTW BE 0419.411.667	
 Elektrische, accumulatie- en infraroodverwarming	ALTENA PROJECTS	Hoekstraat 1 2560 BEVEL		0499 26 43 57	Info@altenaprojects.be	BTW BE 0680.530.125	Www.altenaprojects.be
 Elektrische, accumulatie- en infraroodverwarming	BE-ENERGY	Kwikaard 16 2980 ZOERSEL	0495 18 70 72	0495 18 70 72		BTW BE 0899.108.836	www.be-energy.be
@@ -2250,6 +2371,12 @@ Verwarming	Vandenbulcke bvba	Stationsstraat, 120 120 8540 DEERLIJK	056 70 34 50	
 Verwarming	Vandijck	Industrieweg 18 3990 PEER	011 61 11 16		info@vandijck.nu	BTW BE 0435.448.539	www.vandijck.nu
 Verwarming	Vanheukelom BV	Genebroekstraat 111 3581 BEVERLO		0475 82 74 81	a.vanheukelom@telenet.be	BTW BE 0439.682.192	www.iso-vanheukelom.be
 Verwarming	Vedisan	Liersesteenweg 113 2520 EMBLEM	03 294 41 25	0479 35 84 74	info@vedisan.be	BTW BE 0537.837.185	www.vedisan.be
+Verwarming	Verlinde R&J	Canadezenstraat 42 8380 LISSEWEGE	0494 85 07 90		jens.verlinde@telenet.be	BTW BE 0888.388.356	www.verlinde-rj.be
+Verwarming	Vervloessem Wim	Veldstraat 46 E3130 BEGIJNENDIJK	0494 71 20 45		wim.vervloessem@telenet.be	BTW BE 0809.976.427	www.vervloessemwim.com
+Verwarming	Waelkens Nv	Leon Bekaertstraat 3 8770 INGELMUNSTER	051 48 92 76		delphine@waelkensnv.be	BTW BE 0443.789.648	www.waelkensnv.be
+Verwarming	Weymans Kristof	Limmersweg 34 1840 MALDEREN		0476 40 65 48		BTW BE 0645.603.096	www.weymanskristof.be
+Verwarming	Willems Karel	Industrieweg 51 3980 TESSENDERLO	013 66 20 04		info@willems-karel.be	BTW BE 0461.134.634	www.willems-karel.be
+Verwarming	WOONHABITAT	Meersstraat 45 D9190 STEKENE	0470 95 84 79		info@woonhabitat.com	BTW BE 0869.994.780	WWW.WOONHABITAT.COM
 Vloerverwarming	Peter Devries bvba	Stationsstraat 263 2860 SINT-KATEL.WAVER			peterdevriesbvba@telenet.be	BTW BE 0819.913.680	www.peterdevries.be
 Vloerverwarming	Vander Schaeven	Vossenbergstraat 10 9041 OOSTAKKER	09 251 16 18		patrick@sanitair-vanderschaeven.be	BTW BE 0436.968.172	www.sanitair-vanderschaeven.be
 Vloerverwarming	1Deneckere Lieven	Oudenaardsesteenweg 108 8500 KORTRIJK	056 21 42 45		frank@deneckere.be	BTW BE 0415.493.263	www.deneckere.be
@@ -2310,6 +2437,28 @@ Vloerverwarming	S&P BV	Collegelaan 14 3990 PEER	011 61 11 54	0478 25 02 39	info@
 Vloerverwarming	Sanitair en Dakwerken De Witte Dirk	Oude Bruglaan 140 0019160 LOKEREN	09 356 84 89	0498 81 97 71	info@dewittedirk.be	BTW BE 0478.369.653	www.dewittedirk.be
 Vloerverwarming	Sanitair Verwarming Rik Dhulster bvba	Vinkaertstraat 2 8610 KORTEMARK	051 57 03 71			BTW BE 0872.330.896	www.rik-dhulster.be
 Vloerverwarming	Smets Patrick	Dooistraat 61 3590 DIEPENBEEK		0473 41 94 77		BTW BE 0870.620.827	
+Vloerverwarming	SP Heating BV	Veenderweg 29 29 3550 Heusden-Zolder	0477 26 51 50	0477 26 51 50	info@spheating.be	BTW BE 0736.910.285	
+Vloerverwarming	Stilla	Kleemstraat 38 1741 WAMBEEK	0468 41 24 32	0468 41 24 32	info@stilla.be	BTW BE 0838.660.119	www.stilla.be
+Vloerverwarming	TEMPO BV	Oude Veldstraat 145 9080 LOCHRISTI	09 356 87 87		tempo@telenet.be	BTW BE 0456.241.478	www.tempo-bvba.be
+Vloerverwarming	TOKA Solutions bvba	Gistelsteenweg 280 8490 JABBEKE		0477 43 67 95	info@tokasolutions.be	BTW BE 0897.739.057	www.tokasolutions.be
+Vloerverwarming	Tom Van den Boer	Leemskuilenstraat 5 3950 BOCHOLT		0470 50 19 71	tomvandenboerbv@gmail.com	BTW BE 0751.967.358	
+Vloerverwarming	Torfs Luc	Terloonststraat 5 1910 KAMPENHOUT	016 65 78 22		info@luctorfs.be	BTW BE 0732.376.328	
+Vloerverwarming	Total Energy Solutions (TES)	Doelstraat 32 2590 BERLAAR	03 336 51 50	0468 33 30 54	info@tesweb.be	BTW BE 0825.382.403	www.tesweb.be
+Vloerverwarming	Van Den Brande-Boulpaep	Okaaistraat 38 A1790 TERALFENE	053 68 23 17	0476 35 20 07	eddy.vandenbrande63@gmail.com	BTW BE 0476.981.167	
+Vloerverwarming	Van Der Casseyen Christophe	Ottergemstraat 89 A9570 DEFTINGE	054 41 29 42		info@vandercasseyen.be	BTW BE 0712.414.520	www.vandercasseyen.be
+Vloerverwarming	Van Dooren Sonny	Kabricht 11 3770 VLIJTINGEN	0479 52 87 14	0479 52 87 14	sonnyvandooren@hotmail.com	BTW BE 0555.969.653	www.sonnyvandooren.be
+Vloerverwarming	Van Eeckhout Danny bv	Boomsesteenweg 12 72630 AARTSELAAR	03 844 41 82	0475 32 78 08	info@vedbvba.be	BTW BE 0473.249.637	www.vedbvba.be
+Vloerverwarming	Van Hemelen Guido	Plaats 10A 10 A2460 LICHTAART	014 55 55 08		info@vanhemeleng.be	BTW BE 0420.008.614	www.vanhemeleng.be/
+Vloerverwarming	Van Loock Luc bvba	Streepstraat 4 2222 WIEKEVORST		0495 86 68 21	vanloockluc@telenet.be	BTW BE 0843.752.619	
+Vloerverwarming	Van Overmeeren BV	Zulzekestraat 44 C9690 ZULZEKE	0032476434775		van.overmeeren@telenet.be	BTW BE 0870.898.761	
+Vloerverwarming	Vandenbulcke bvba	Stationsstraat, 120 120 8540 DEERLIJK	056 70 34 50		info@vandenbulckebvba.be	BTW BE 0437.283.126	vandenbulckebvba.zuinigerverwarmen.be
+Vloerverwarming	Vandijck	Industrieweg 18 3990 PEER	011 61 11 16		info@vandijck.nu	BTW BE 0435.448.539	www.vandijck.nu
+Vloerverwarming	Vedisan	Liersesteenweg 113 2520 EMBLEM	03 294 41 25	0479 35 84 74	info@vedisan.be	BTW BE 0537.837.185	www.vedisan.be
+Vloerverwarming	Verlinde R&J	Canadezenstraat 42 8380 LISSEWEGE	0494 85 07 90		jens.verlinde@telenet.be	BTW BE 0888.388.356	www.verlinde-rj.be
+Vloerverwarming	Vervloessem Wim	Veldstraat 46 E3130 BEGIJNENDIJK	0494 71 20 45		wim.vervloessem@telenet.be	BTW BE 0809.976.427	www.vervloessemwim.com
+Vloerverwarming	Weymans Kristof	Limmersweg 34 1840 MALDEREN		0476 40 65 48		BTW BE 0645.603.096	www.weymanskristof.be
+Vloerverwarming	Willems Karel	Industrieweg 51 3980 TESSENDERLO	013 66 20 04		info@willems-karel.be	BTW BE 0461.134.634	www.willems-karel.be
+Vloerverwarming	WOONHABITAT	Meersstraat 45 D9190 STEKENE	0470 95 84 79		info@woonhabitat.com	BTW BE 0869.994.780	WWW.WOONHABITAT.COM
 Warmtepompen	Peter Devries bvba	Stationsstraat 263 2860 SINT-KATEL.WAVER			peterdevriesbvba@telenet.be	BTW BE 0819.913.680	www.peterdevries.be
 Warmtepompen	1Deneckere Lieven	Oudenaardsesteenweg 108 8500 KORTRIJK	056 21 42 45		frank@deneckere.be	BTW BE 0415.493.263	www.deneckere.be
 Warmtepompen	Air Service Center	Nieuwlandlaan 48 B-5103200 AARSCHOT	016 55 05 40		Info@airservice.be	BTW BE 0444.243.667	www.AirService.be
@@ -2598,7 +2747,7 @@ Domotica	RK ELEKTRO	Mariëndal 6 2400 MOL	014 32 61 67	0476 57 05 64	rk.rk@skynet
 Domotica	S&P BV	Collegelaan 14 3990 PEER	011 61 11 54	0478 25 02 39	info@senp.be	BTW BE 0466.286.126	senp.be
 Domotica	SECURIPLUS-SECURITY	Boomsesteenweg 93 2610 WILRIJK			jq@secur-alarmsystemen.be	BTW BE 0648.589.609	www.secur-alarmsystemen.be
 Domotica	SHIRO BV	Rechtestraat 26A 3120 TREMELO		0498 20 23 32	bd.shiro@gmail.com	BTW BE 0758.550.886	www.shiro-elektro.be
-Domotica	TJ-Technics bv	Europastraat 19  2850 BOOM		0	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
+Domotica	TJ-Technics bv	Europastraat 19 2850 BOOM		0478 58 64 61	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
 Domotica	VAN HULLE ELECTROTECHNIEK (VHE)	Industriepark Rosteyne 6  9060 ZELZATE	09 253 53 66		info@vhe.be	BTW BE 0644.824.722	www.vhe.be
 Domotica	VanEeCo Electrics bv	Gemeenhofstraat 22 8840 OOSTNIEUWKERKE		0474 23 44 78	info@vaneeco.be	BTW BE 0657.781.645	www.vaneeco.be
 Domotica	VANHOVE GEERT - GVE	Snoekstraat 30  8421 VLISSEGEM		0495 21 90 12	info@geert-vanhove.be	BTW BE 0672.293.043	geert-vanhove.be
@@ -2649,6 +2798,26 @@ Elektriciteit	MEERSMAN STEFAN	Kapelstraat 153 9140 STEENDORP	03 296 31 13	0477 3
 Elektriciteit	MEUNIER TECHNICS	Panoramastraat 16  3500 HASSELT		0495 90 58 36	kim@meuniertechnics.be	BTW BE 0735.858.529	
 Elektriciteit	MW Technics BV	Meerstraat 134 3300 GOETSENHOVEN		0498 72 36 40	info@mwtechnics.eu	BTW BE 0752.544.212	www.mwtechnics.eu
 Elektriciteit	Nictric	Klinkaard 90 9340 OORDEGEM	09 345 46 78	0474 38 71 22	admin@nictric.be	BTW BE 0644.948.743	www.nictric.be
+Elektriciteit	NvB Klus & Tuin	Hazerikstraat 9 3582 KOERSEL			niki.van.berkum1@telenet.be	BTW BE 0727.921.157	
+Elektriciteit	OOMS TOM ELEKTO	Cardijnlaan 2  3130 BEGIJNENDIJK		0479 30 98 71	tom.ooms@elekto.be	BTW BE 0733.801.832	www.elekto.be
+Elektriciteit	PICO INTERIEUR	Liebiglaan 96 2900 SCHOTEN			info@pico-interieur.be	BTW BE 0697.850.761	www.pico-interieur.be
+Elektriciteit	Renovatief Verbouwen BV	Beversesteenweg 435 8800 ROESELARE		0474 55 03 19	koen@renovatiefverbouwen.be	BTW BE 0653.898.972	www.renovatiefverbouwen.be
+Elektriciteit	RK ELEKTRO	Mariëndal 6 2400 MOL	014 32 61 67	0476 57 05 64	rk.rk@skynet.be	BTW BE 0728.419.520	
+Elektriciteit	S&P BV	Collegelaan 14 3990 PEER	011 61 11 54	0478 25 02 39	info@senp.be	BTW BE 0466.286.126	senp.be
+Elektriciteit	Sanagro	Evenbroekveld 30B 9420 ERPE		0495 20 81 82	info@sanagro.be	BTW BE 0834.514.358	www.sanagro.be
+Elektriciteit	SECURITY & CONTROL SYSTEMS	Steenhuisdreef 70A  9031 DRONGEN	0474 22 93 14	0474 22 93 14	Jeroen@scsystems.be	BTW BE 0843.511.604	scsystems.be
+Elektriciteit	SHIRO BV	Rechtestraat 26A 3120 TREMELO		0498 20 23 32	bd.shiro@gmail.com	BTW BE 0758.550.886	www.shiro-elektro.be
+Elektriciteit	TJ-Technics bv	Europastraat 19 2850 BOOM		0478 58 64 61	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
+Elektriciteit	Van Bouwel Wim	Jef Buyckxstraat 212 2300 TURNHOUT		0478 41 96 21	vanbouwelwim@gmail.com	BTW BE 0728.574.126	
+Elektriciteit	VAN HULLE ELECTROTECHNIEK (VHE)	Industriepark Rosteyne 6  9060 ZELZATE	09 253 53 66		info@vhe.be	BTW BE 0644.824.722	www.vhe.be
+Elektriciteit	VanEeCo Electrics bv	Gemeenhofstraat 22 8840 OOSTNIEUWKERKE		0474 23 44 78	info@vaneeco.be	BTW BE 0657.781.645	www.vaneeco.be
+Elektriciteit	VANHOLLEBEKE TECHNICS	stijn streuvelslaan, 47 47 8810 LICHTERVELDE		0475 23 44 67	thomas-vanhollebeke@hotmail.com	BTW BE 0736.819.225	
+Elektriciteit	VANHOVE GEERT - GVE	Snoekstraat 30  8421 VLISSEGEM		0495 21 90 12	info@geert-vanhove.be	BTW BE 0672.293.043	geert-vanhove.be
+Elektriciteit	VDN-Technics	Brakelsesteenweg 580 9400 NINOVE		0476 31 20 21	VDN-Technics@hotmail.com	BTW BE 0725.624.633	
+Elektriciteit	Verlinde R&J	Canadezenstraat 42 8380 LISSEWEGE	0494 85 07 90		jens.verlinde@telenet.be	BTW BE 0888.388.356	www.verlinde-rj.be
+Elektriciteit	Verscheure Domotica BV	Gapaardstraat 10  8870 IZEGEM		0495 20 78 51	info@verscheure.com	BTW BE 0884.045.528	www.verscheure.com
+Elektriciteit	WOONHABITAT	Meersstraat 45 D9190 STEKENE	0470 95 84 79		info@woonhabitat.com	BTW BE 0869.994.780	WWW.WOONHABITAT.COM
+Elektriciteit	WVE & CO	Peter Benoitstraat 34 2850 BOOM		0477 34 39 59	werner@wve-co.be	BTW BE 0823.197.032	wve-co.be
 Stofzuigersystemen	DEBORCO BVBA	Schoenstraat 1 B-9140 TEMSE	0478 32 10 03		info@deborco.be	BTW BE 0807.384.547	www.deborco.be
 Stofzuigersystemen	Eldomocom Security	Forthoekstraat 21 8370 UITKERKE		0495 54 07 07	info@eldomocom.be	BTW BE 0810.843.586	www.eldomocom.be
 Stofzuigersystemen	RK ELEKTRO	Mariëndal 6 2400 MOL	014 32 61 67	0476 57 05 64	rk.rk@skynet.be	BTW BE 0728.419.520	
@@ -2674,7 +2843,7 @@ Telecommunicatie en netwerken	Nictric	Klinkaard 90 9340 OORDEGEM	09 345 46 78	04
 Telecommunicatie en netwerken	RK ELEKTRO	Mariëndal 6 2400 MOL	014 32 61 67	0476 57 05 64	rk.rk@skynet.be	BTW BE 0728.419.520	
 Telecommunicatie en netwerken	S&P BV	Collegelaan 14 3990 PEER	011 61 11 54	0478 25 02 39	info@senp.be	BTW BE 0466.286.126	senp.be
 Telecommunicatie en netwerken	Security First BV	Tolstraat 36 A9550 Herzele	0470 47 16 94	0470 47 16 94	info@securityfirst.be	BTW BE 0743.837.075	www.securityfirst.be
-Telecommunicatie en netwerken	TJ-Technics bv	Europastraat 19  2850 BOOM		0	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
+Telecommunicatie en netwerken	TJ-Technics bv	Europastraat 19 2850 BOOM		0478 58 64 61	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
 Telecommunicatie en netwerken	Van Bouwel Wim	Jef Buyckxstraat 212 2300 TURNHOUT		0478 41 96 21	vanbouwelwim@gmail.com	BTW BE 0728.574.126	
 Telecommunicatie en netwerken	VAN HULLE ELECTROTECHNIEK (VHE)	Industriepark Rosteyne 6  9060 ZELZATE	09 253 53 66		info@vhe.be	BTW BE 0644.824.722	www.vhe.be
 Telecommunicatie en netwerken	VanEeCo Electrics bv	Gemeenhofstraat 22 8840 OOSTNIEUWKERKE		0474 23 44 78	info@vaneeco.be	BTW BE 0657.781.645	www.vaneeco.be
@@ -2721,7 +2890,7 @@ Verlichting	OOMS TOM ELEKTO	Cardijnlaan 2  3130 BEGIJNENDIJK		0479 30 98 71	tom.
 Verlichting	RK ELEKTRO	Mariëndal 6 2400 MOL	014 32 61 67	0476 57 05 64	rk.rk@skynet.be	BTW BE 0728.419.520	
 Verlichting	S&P BV	Collegelaan 14 3990 PEER	011 61 11 54	0478 25 02 39	info@senp.be	BTW BE 0466.286.126	senp.be
 Verlichting	SHIRO BV	Rechtestraat 26A 3120 TREMELO		0498 20 23 32	bd.shiro@gmail.com	BTW BE 0758.550.886	www.shiro-elektro.be
-Verlichting	TJ-Technics bv	Europastraat 19  2850 BOOM		0	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
+Verlichting	TJ-Technics bv	Europastraat 19 2850 BOOM		0478 58 64 61	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
 Verlichting	Van Bouwel Wim	Jef Buyckxstraat 212 2300 TURNHOUT		0478 41 96 21	vanbouwelwim@gmail.com	BTW BE 0728.574.126	
 Verlichting	VAN HULLE ELECTROTECHNIEK (VHE)	Industriepark Rosteyne 6  9060 ZELZATE	09 253 53 66		info@vhe.be	BTW BE 0644.824.722	www.vhe.be
 Verlichting	VanEeCo Electrics bv	Gemeenhofstraat 22 8840 OOSTNIEUWKERKE		0474 23 44 78	info@vaneeco.be	BTW BE 0657.781.645	www.vaneeco.be
@@ -2760,6 +2929,7 @@ Zonnepanelen & energieopslag	NRG MAN	Doornpark 112 A9120 BEVEREN	03 376 06 22	04
 Zonnepanelen & energieopslag	Penxten CV & Sanitair BV	Motstraat 30 3570 ALKEN	011 59 95 44		info@penxten.be	BTW BE 0447.450.904	www.penxten.be
 Zonnepanelen & energieopslag	Soenen ZDR	Soetestraat 32 8840 STADEN			info@soenenzdr.be	BTW BE 0667.602.696	
 Zonnepanelen & energieopslag	Solar Service Buggenhout	Molenstraat 132 9255 BUGGENHOUT		0475 62 83 37	info@solarservicebuggenhout.be	BTW BE 0743.247.355	www.solarservicebuggenhout.be
+Zonnepanelen & energieopslag	TJ-Technics bv	Europastraat 19 2850 BOOM		0478 58 64 61	info@tjtechnics.be	BTW BE 0665.695.756	www.tjtechnics.be
 Zonnepanelen & energieopslag	VAN HULLE ELECTROTECHNIEK (VHE)	Industriepark Rosteyne 6  9060 ZELZATE	09 253 53 66		info@vhe.be	BTW BE 0644.824.722	www.vhe.be
 Zonnepanelen & energieopslag	VanEeCo Electrics bv	Gemeenhofstraat 22 8840 OOSTNIEUWKERKE		0474 23 44 78	info@vaneeco.be	BTW BE 0657.781.645	www.vaneeco.be
 Zonnepanelen & energieopslag	VANHOVE GEERT - GVE	Snoekstraat 30  8421 VLISSEGEM		0495 21 90 12	info@geert-vanhove.be	BTW BE 0672.293.043	geert-vanhove.be
