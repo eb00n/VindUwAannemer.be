@@ -91,6 +91,7 @@ def accept_cookies(driver):
         driver.find_element(By.ID, 'c_statistic').click()
         driver.find_element(By.ID, 'c_social').click()
         driver.find_elements(By.XPATH, "//a[@class='c_btnsave c_close']")[0].click()
+        # driver.find_elements(By.XPATH, "/html/body/div[2]/div/div/div[4]/div[2]/a")[0].click()
         cookies_accepted = True
 
 
